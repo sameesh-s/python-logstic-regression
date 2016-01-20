@@ -1,3 +1,7 @@
 with open("dataset.txt") as textFile:
         lines = [line.split() for line in textFile]
-        print lines[1][2]
+       print lines[0][0]
+        
+        length=lines.__len__()
+        print "Length of training set :"
+        print length
